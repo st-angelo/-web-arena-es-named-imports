@@ -1,12 +1,15 @@
 {
   "name": "@web-arena/es-named-imports",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Shortcuts for using named imports in web-arena.",
   "main": "dist/index.mjs",
   "types": "dist/index.d.mts",
   "type": "module",
   "scripts": {
-    "push": "tsc && npm publish"
+    "push": "tsc && npm publish",
+    "build": "npm run build:tsc && npm run build:copy-files",
+    "build:tsc": "tsc",
+    "build:copy-files": "node ./scripts/copyFiles.js"
   },
   "author": "Angelo Statescu",
   "license": "ISC",
@@ -20,6 +23,8 @@
     "mongoose": "^6.2.0"
   },
   "devDependencies": {
+    "fs-extra": "^10.0.0",
+    "glob": "^7.2.0",
     "typescript": "^4.5.5"
   }
 }
