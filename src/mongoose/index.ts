@@ -24,3 +24,4 @@ export class Query<
   RawDocType = DocType
 > extends mongoose.Query<ResultType, DocType, THelpers, RawDocType> {}
 export type ObjectId = mongoose.Types.ObjectId;
+Object.keys(mongoose).forEach(x => console.log(x));
