@@ -1,0 +1,16 @@
+{
+  "name": "es-named-imports",
+  "version": "1.0.0",
+  "description": "Shortcuts for using named imports in node.js projects with ES modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Angelo Statescu",
+  "license": "ISC",
+  "peerDependencies": {
+    "@automapper/classes": "^7.2.0",
+    "@automapper/core": "^7.2.0",
+    "mongoose": "^6.2.0"
+  }
+}
