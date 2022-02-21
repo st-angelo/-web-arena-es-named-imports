@@ -1,18 +1,18 @@
 {
   "name": "@web-arena/es-named-imports",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Shortcuts for using named imports in web-arena.",
   "main": "dist/index.mjs",
   "types": "dist/index.d.mts",
   "type": "module",
   "scripts": {
-    "publish": "tsc && npm publish"
+    "push": "tsc && npm publish"
   },
   "author": "Angelo Statescu",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/st-angelo/es-named-imports"
+    "url": "https://github.com/st-angelo/-web-arena-es-named-imports"
   },
   "peerDependencies": {
     "@automapper/classes": "^7.2.0",
